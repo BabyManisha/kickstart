@@ -1,5 +1,5 @@
 import Web3 from "web3";
-require('dotenv').config()
+// require('dotenv').config()
 // window.ethereum.request({ method: "eth_requestAccounts" });
  
 // const web3 = new Web3(window.ethereum);
@@ -14,7 +14,8 @@ if(typeof window != "undefined" && typeof window.web3 != "undefined"){
 }else{
     // For Node Server (or) Browser non Metamask users
     const provider = new Web3.providers.HttpProvider(
-        process.env.HD_WALLET_URL
+        // process.env.HD_WALLET_URL
+        'https://rinkeby.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161'
     );
     web3 = new Web3(provider);
 }
