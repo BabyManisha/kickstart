@@ -12,3 +12,9 @@ A NextJs application using ethereum blockchain and web3 to manage Campaigns and 
 6. Start the web app
     `npm run dev`
 7. Open browser with url `http://localhost:3000/`
+
+### DEMO
+
+![WATCH DEMO](Demo/Demo.gif)
+
+[Click here for Demo](Demo/Demo.webm)
